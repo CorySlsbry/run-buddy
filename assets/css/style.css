@@ -38,7 +38,7 @@ header nav ul {
     list-style: none; 
 }
 header nav ul li a {
-    margin: 0 30px;
+    margin: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -76,6 +76,7 @@ footer a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .hero-cta {
@@ -84,7 +85,8 @@ footer a {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
+    align-items: flex-start;
 }
 
 .hero-cta h2 {
@@ -145,7 +147,7 @@ footer a {
 }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     margin-bottom: 35px;
     padding-bottom: 20px;
@@ -155,11 +157,13 @@ footer a {
 }
 
 .primary-border {
-    border-color: #fce138;    
+    border-color: #fce138;  
+    border-bottom-style: solid;  
 }
 
 .secondary-border {
     border-color: #39a6b2;
+    border-bottom-style:solid;
 }
 
 .step {
@@ -319,6 +323,12 @@ footer a {
 }
 .flex-row {
     display: flex;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+
 }
 
 /* REACH OUT STYLES END */
