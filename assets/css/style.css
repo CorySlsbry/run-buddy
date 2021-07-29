@@ -216,8 +216,8 @@ footer a {
     transform: rotate(-15deg);
 }
 
-.checkbox-wrapper input:checked + label::after,
-.radio-wrapper input:checked + label::after {
+.checkbox-wrapper input + label::after,
+.radio-wrapper input + label::after {
     content: none;
 }
 
